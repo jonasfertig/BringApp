@@ -1,0 +1,29 @@
+
+.article{
+    width: 90%;
+    margin: auto;
+}
+h3, h2, h1{
+    color: $basic-text-color;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 2px;
+    font-size: 18px;
+    text-align: center;
+    height: max-content;
+    color: $basic-text-color;
+}
+p{
+    width: 90%;
+    margin:auto;
+    padding: 2rem;
+    color: $basic-text-color;
+    padding-top:2rem;
+    padding-bottom: 25px;
+    height: max-content;
+    position: relative;
+    border-top: 1px lightgrey solid;
+    border-radius: 2rem;
+    color: $basic-text-color;
+    text-align: center;
+}

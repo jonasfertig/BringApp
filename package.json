@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "immutability-helper": "^3.1.1",
+    "mysql2": "^2.2.5",
+    "react-redux": "^7.2.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
+  }
+}

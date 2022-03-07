@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color:lightgray;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    cursor: pointer;
+    color: $basic-text-color;
+}
+.navbar{  
+    background-color: $nav-background-color;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+.navbar > button {
+    flex: 1 0 45%;
+    margin:4px;
+}
+.navbar > h1 {
+    flex:3 100%;
+}

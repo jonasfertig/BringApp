@@ -1,0 +1,39 @@
+@import "../../scss/variables";
+.delivery_container{
+    background-color: $front-glass-color;
+    margin-bottom:20px;
+    margin-right:10px;
+    font-size:32px;
+    text-align: left;
+    color: $basic-text-color;
+    padding:20px;
+    border-radius:20px;
+}
+
+.delivery_title{
+    color: $text_title_color;
+    font-size:42px;
+}
+.delivery_desc{
+    color: #2A4F8A;
+}
+.delivery_item{
+    color: #000000;
+}
+.back_button_shopper{
+    position: relative;
+    width:100px;
+    bottom:500px;
+    right:200px;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.shopper_container{
+    height: fit-content;
+}
+.shopper_back_button{
+    margin-bottom: 10px;
+}

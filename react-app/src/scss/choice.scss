@@ -1,0 +1,106 @@
+@import "./variables";
+.client_button{
+
+  height:100%;
+  width:100%;
+  background-color: $back-glass-color;
+    &:hover{
+      background-color: $front-glass-color;
+    }
+  }
+  
+  .shopper_button{
+    font-size: 500%;
+    height:100%;
+    width:100%;
+    box-sizing:border-box;
+  background-color: $front-glass-color;
+    
+    }
+  
+  .choice_container{
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      height:100%;
+      box-sizing:border-box;
+  }
+  
+  .creation_btn{
+    font-size: 300%;
+    padding: 50px 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .creation_btn > div{
+    font-size: 24px;
+  }
+  .creation_choice_container > button:nth-child(1){
+    margin-right:10px;
+  }
+
+@media only screen and (max-width: 650px) {
+  // .client_button{
+
+  //   height:100%;
+  //   width:100%;
+  //   background-color: $back-glass-color;
+  //     &:hover{
+  //       background-color: $front-glass-color;
+  //     }
+  //   }
+    
+  //   .shopper_button{
+  //     font-size: 100%;
+  //     height:40%;
+  //     width:80%;
+  //     box-sizing:border-box;
+  //     background-color: $front-glass-color;
+  //     text-align: center;
+  //     display: block;
+  //     padding: 50px;  
+  //     }
+    
+  //   .logout_button{
+  //     font-size: 120%;
+  //     height:20px;
+  //     width:80%;
+  //     box-sizing:border-box;
+  //     background-color: $front-glass-color;
+  //     margin-left: auto;
+  //     margin-right: auto;
+  //     padding:40px;
+  //   }
+  //   .choice_container{
+  //       text-align: center;
+  //       display: flex;
+  //       flex-direction: row;
+  //       height:50%;
+  //       box-sizing:border-box;
+  //   }
+    
+  //   .creation_btn{
+  //     font-size: 300%;
+  //     padding: 50px 0;
+  //     margin-bottom: 10px;
+  //     border-radius: 10px;
+  //   }
+  //   .creation_btn > div{
+  //     font-size: 24px;
+  //   }
+  //   .creation_choice_container > button:nth-child(1){
+  //     margin-right:10px;
+  //   }
+    
+  .shopper_button{
+    font-size: 40px;
+    
+    }
+    .choice_container{
+      flex-direction: column;     
+  }
+  .creation_choice_container > button:nth-child(1){
+    margin-right:0;
+  }
+  
+}

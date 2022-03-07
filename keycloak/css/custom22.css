@@ -1,0 +1,9 @@
+.login-pf body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top right, #608000, #008060);
+    background-repeat: no-repeat;
+}
+

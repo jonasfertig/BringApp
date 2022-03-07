@@ -1,0 +1,76 @@
+@import "../../scss/variables";
+.creation_container{
+    display:block;
+    flex-direction: row;
+    justify-content: center;
+    width: 97%;
+}
+.creation_container  * {
+    font-size: 24px;
+}
+.spacer{
+    width:3px;
+    background-color: $front-glass-color;
+    height:100%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.button {
+    padding: 5px;
+    margin-bottom: 5px;
+    
+    font-size: 18px;
+    display: inline-block;
+    width: fit-content;  
+}
+.apply {
+    margin-right: auto;
+}
+.create {
+    width: 40%;
+}
+.input{
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+.confirm{
+    margin-top: 5px;
+    width: 245px;
+}
+.listItem{
+    margin: 10px 0;
+    height: fit-content;
+    display:inline-block;
+    padding:5px;
+}
+
+.listItem > .button{
+    display: flex;
+    flex-direction: row;
+    float: left;
+   
+}
+
+.grocery_container{
+    height:fit-content;
+}
+.confirm_container {
+    background-color: $front-glass-color;
+    width: -webkit-fill-available;
+    border-radius:20px;
+    padding:10px;
+    font-size:24px;
+    display:flex;
+    flex-direction: column;
+}
+.confirm_container >input{
+    width:25%;
+    height:2em;
+}
+
+.confirm_container>button{
+    align-self: center;
+    width:25%;
+}
